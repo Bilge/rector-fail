@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Org\FirstBundle\Service;
 
-class MyService
+class MyBundleService
 {
     private string $foo;
 
