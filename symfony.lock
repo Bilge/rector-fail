@@ -1,0 +1,91 @@
+{
+    "psr/simple-cache": {
+        "version": "1.0.1"
+    },
+    "sensio/generator-bundle": {
+        "version": "v3.1.7"
+    },
+    "symfony/console": {
+        "version": "3.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "524e110a6284dae4172aa8cc32db6f819428f6ac"
+        },
+        "files": [
+            "./bin/console",
+            "./config/bootstrap.php"
+        ]
+    },
+    "symfony/dotenv": {
+        "version": "v3.4.47"
+    },
+    "symfony/flex": {
+        "version": "1.17",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "c0eeb50665f0f77226616b6038a9b06c03752d8e"
+        },
+        "files": [
+            "./.env"
+        ]
+    },
+    "symfony/framework-bundle": {
+        "version": "3.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.4",
+            "ref": "4e582450c27d790227d2596a2ffb514fd71d5db7"
+        },
+        "files": [
+            "./config/services.yaml",
+            "./config/bootstrap.php",
+            "./config/packages/cache.yaml",
+            "./config/packages/framework.yaml",
+            "./config/packages/test/framework.yaml",
+            "./public/index.php",
+            "./src/Kernel.php",
+            "./src/Controller/.gitignore"
+        ]
+    },
+    "symfony/polyfill-apcu": {
+        "version": "v1.23.0"
+    },
+    "symfony/polyfill-php56": {
+        "version": "v1.20.0"
+    },
+    "symfony/polyfill-php70": {
+        "version": "v1.20.0"
+    },
+    "symfony/process": {
+        "version": "v3.4.47"
+    },
+    "symfony/twig-bridge": {
+        "version": "v3.4.47"
+    },
+    "symfony/twig-bundle": {
+        "version": "3.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "7e5381cd17e0e27d1b432af9230b65060b75ac4c"
+        },
+        "files": [
+            "./config/routes/dev/twig.yaml",
+            "./config/packages/test/twig.yaml",
+            "./config/packages/twig.yaml",
+            "./templates/base.html.twig"
+        ]
+    },
+    "symfony/yaml": {
+        "version": "v3.4.47"
+    },
+    "twig/twig": {
+        "version": "v2.14.7"
+    }
+}
